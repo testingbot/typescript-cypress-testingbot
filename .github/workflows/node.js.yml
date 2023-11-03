@@ -26,6 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - name: Run tests
       env:
         TESTINGBOT_KEY: ${{ secrets.TESTINGBOT_KEY }}
         TESTINGBOT_SECRET: ${{ secrets.TESTINGBOT_SECRET }}
