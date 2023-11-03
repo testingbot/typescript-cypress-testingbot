@@ -1,10 +1,10 @@
 {
   "name": "typescript-cypress-testingbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "TestingBot Demo Project for Cypress and Typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "testingbot-cypress run"
   },
   "author": "",
   "license": "ISC",
