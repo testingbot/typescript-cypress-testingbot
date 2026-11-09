@@ -13,8 +13,8 @@ You need a TestingBot key and secret to be able to run Cypress tests. You can ge
 Once you have these, either add them to the `testingbot.json` file, or export them as environment variables (these take precedence over the placeholders in `testingbot.json`):
 
 ```bash
-export TESTINGBOT_KEY=<your TestingBot key>
-export TESTINGBOT_SECRET=<your TestingBot secret>
+export TESTINGBOT_KEY="your-testingbot-key"
+export TESTINGBOT_SECRET="your-testingbot-secret"
 ```
 
 ## Run Cypress Typescript tests on TestingBot
